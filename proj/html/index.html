@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no">
+        <meta http-equiv="cleartype" content="on">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="format-detection" content="email=no">
+        <link rel="stylesheet" href="/app.css">
+
+        <!-- 外部和钉钉客户端的脚本加载 -->
+        <script src="https://as.alipayobjects.com/g/component/??react/15.3.2/react.min.js,react/15.3.2/react-dom.min.js"></script>
+        <script src="//g.alicdn.com/dingding/open-develop/1.1.1/dingtalk.js"></script>
+
+    </head>
+
+    <body>
+        <div id="App"/>
+        <script src="/app.js"></script>
+
+        <!-- 消除移动浏览器的消除点击延时 -->
+        <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>        
+        <script>
+            if ('addEventListener' in document) {
+                window.addEventListener(
+                    'load', 
+                    function() { FastClick.attach(document.body) }, 
+                    false
+                )
+            }
+        </script>
+    </body>
+</html>

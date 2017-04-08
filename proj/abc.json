@@ -1,0 +1,22 @@
+{
+    "name": "<%- name %>",
+    "options": {
+        "template": "<%- template %>",
+        "npm": "<%- npm %>",
+        
+        "vars": {  "ENV": "develop"  }, 
+        "buildvars": {  "ENV": [ "test" ] }, 
+        
+        "alias": { 
+            "apis": "apis",
+            "assets": "assets",
+            "config": "config",
+            "image": "assets/image",
+            "icon": "assets/icon",
+            "components": "components",
+            "dings": "dings",
+            "pages": "pages",
+            "utils": "utils"
+        }
+    }
+}

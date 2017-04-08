@@ -1,0 +1,31 @@
+{
+    "name": "<%- name %>",
+    "author": "<%- author %>",
+    "version": "<%- version %>",
+    "description": "<%- description %>",
+    "repository": {
+        "type": "git",
+        "url": "<%- repository %>"
+    },
+    "scripts": {
+        "start": "nowa server -p 3000 -e index.js",
+        "build": "nowa build -e index.js"
+    },
+    "homepage": "<%- homepage %>",
+    "license": "MIT",
+    "dependencies": {
+        "antd-mobile": "^1.0.5",
+        "natty-storage": "^1.1.2",
+        "no-flux": "^0.2.7",
+        "react": "^15.4.2",
+        "react-dom": "^15.4.2",
+        "react-keeper": "^1.0.9",
+        "react-router": "^3.0.2",
+        "svg-sprite-loader": "^0.3.0",
+        "unity-api": "^1.0.5"
+    },
+    "devDependencies": {
+        "babel-plugin-import": "~1.0.1",
+        "lodash": "^4.17.4"
+    }
+}
