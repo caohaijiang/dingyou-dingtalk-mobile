@@ -1,8 +1,8 @@
 { 
-    "DINTALK_API": false, 
-    "corpId": " 你的钉钉团队的corpId,在钉钉Web管理后台微应用中获得. ",
-    "AUTH_URL": " 你的钉钉jsApi鉴权服务的端口",
-    "APP_URL": { "url":" 你的本地调试微应用的完整url " },
+    "DINTALK_API": true, 
+    "corpId": "dinga04ad0aa6f805b3435c2f4657eb6378f",
+    "AUTH_URL": "http://116.62.180.21:30001/",
+    "APP_URL": { "url": "http://192.168.10.11:3000/" },
     "API_URL": " 你的Api后台服务资源url " ,
-    "MOCK_URL": "你的mockApi后台服务资源url " 
+    "MOCK_URL": "http://116.62.180.21:30003/" 
 }
