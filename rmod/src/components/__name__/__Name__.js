@@ -14,19 +14,22 @@ const Item = List.Item;
 
 class <%- Name %> extends React.Component {
     constructor(props){super( props );
-        this.state = {  };
+        this.state = { value:this.props.defaultValue, };
         this.handleChange = this.handleChange.bind(this);        
         this.handleClick = this.handleClick.bind(this);
     }
 
-    handleChange(key){
+    handleChange(val){
+        this.setState({ value:val });
     }
 
-    handleClick(key){
+    handleClick(val){
+        this.setState({ value:val });
     }
 
     render() { 
-        const {state:{  }} = this; 
+        const {{ value }} = this.state; 
+        const {{ keyname, title, data, defaultValue, extra, only=true, onChange }} = this.props; 
 
         return (
             <div className="<%= name %> ">
