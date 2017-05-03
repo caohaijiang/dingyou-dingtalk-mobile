@@ -1,7 +1,7 @@
 {
     "name": "<%- name %>",
     "options": {
-        "template": "https://github.com/caohaijiang/dingyou-dingtalk-mobile/archive/master.zip",
+        "template": "<%- template %>",
         "npm": "<%- npm %>",
         
         "vars": {  "ENV": "develop"  }, 
