@@ -1,6 +1,5 @@
 
 import jsapi from './jsapi.json';
-import { assign } from 'lodash';
 
 const { CORP_ID, AUTH_URL, APP_URL } = require(`config/${ENV}.json`);
 

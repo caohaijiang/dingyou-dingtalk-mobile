@@ -1,5 +1,4 @@
 import Ding from 'dings';
-import { assign } from 'lodash';
 import { apiSync } from 'utils'
 import PageConst from './PageConst';
 
@@ -25,11 +24,4 @@ export default {
         setState({ inputText: res.value});
     }
 
-    /*
-    async getUser({ setState, Api, }) { // Api数据请求
-        setState({ loading: true });
-        let state = await apiSync( Api.user.get, {},)
-        setState( _.assign(state,{ loading: false }));
-    },
-    */
 };

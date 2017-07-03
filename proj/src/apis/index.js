@@ -1,7 +1,6 @@
-import { assign } from 'lodash';
 import user from './user';
 
-export const resources = assign( {} ,
+export const resources = Object.assign( {} ,
     user, 
 );
 

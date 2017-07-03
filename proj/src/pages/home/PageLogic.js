@@ -1,4 +1,3 @@
-import { assign } from 'lodash';
 import { apiSync } from 'utils'
 import PageConst from './PageConst';
 
