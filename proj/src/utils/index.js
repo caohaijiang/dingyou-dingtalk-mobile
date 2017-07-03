@@ -1,4 +1,3 @@
-import _ from 'lodash';
 
 function PromptMessage( message ){
     return { title: "提示", buttonName: "收到",

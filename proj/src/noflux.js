@@ -1,8 +1,6 @@
 import { setup, LogicRender } from 'no-flux';
-import { assign } from 'lodash';
-import { Toast } from "antd-mobile"; 
+import { Toast } from "antd-mobile";
 import Icons from 'assets/icon';
-import { apiSync } from 'utils';
 
 /* 导入资源对象 */
 import Api from './api';
@@ -18,4 +16,4 @@ setup('Loading', Loading);
 setup('Icon', Icons );
 
 /*　LogicRender绑定　*/
-LogicRender.defaultProps = assign( LogicRender.defaultProps, attachComponents );
+LogicRender.defaultProps = Object.assign( LogicRender.defaultProps, attachComponents );

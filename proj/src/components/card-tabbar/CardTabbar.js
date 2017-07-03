@@ -1,6 +1,5 @@
 require('./CardTabbar.less');
-import { last, endsWith } from 'lodash'
-import { TabBar, Icon  } from "antd-mobile"; 
+import { TabBar, Icon  } from "antd-mobile";
 
 /*  import Tabbar, { activeTabbar } from 'components/card-tabbar';
     <Tabbar menu={  } tabbarIndex={  } badge={  } onChange={  } /> 
@@ -15,18 +14,15 @@ import { TabBar, Icon  } from "antd-mobile";
 
 function getPageName() {
     let a = location.href;
-    return last(a.split("/"))        
+    let pageNameArr = a.split("/");
+    return pageNameArr[pageNameArr.length - 1];
 }
 
 export function activeTabbar( menu ){ //解决tabbar回退不能设置状态的问题
     let index=0
 
     if ( getPageName() != "" ){
-        for (let i in menu){
-            if ( endsWith( menu[i].path, getPageName() )) { 
-                index=i;
-            }
-        }
+        index = menu.findIndex(ele => ele.path.endsWith(getPageName()));
     }
     
     return parseInt(index)  //返回url序号
