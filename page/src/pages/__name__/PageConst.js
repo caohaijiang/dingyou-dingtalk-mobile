@@ -1,6 +1,1 @@
-export default {
-    myConts: {
-        one: 'one',
-        two: 'two',
-    }
-}
+//常量

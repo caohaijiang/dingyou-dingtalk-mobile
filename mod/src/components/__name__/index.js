@@ -1,1 +1,1 @@
-export default require('./<%= Name %>') 
+export { default } from './<%= Name %>';
