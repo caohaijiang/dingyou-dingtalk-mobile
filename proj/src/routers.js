@@ -4,18 +4,9 @@ import { HashRouter, Route } from 'react-keeper'
 
 import PageHome from 'pages/home/';
 
-class App extends React.Component {
-    render() { 
-        return ( <div> {
-            this.props.children
-        } </div> );
-    }
-}
-
-const rootRoute = <HashRouter><div>    
-    <Route name="app" path="/" component={ App } >
+const rootRoute =
+    <HashRouter>
         <PageHome.route />
-    </Route>
-</div></HashRouter>
+    </HashRouter>;
 
 ReactDOM.render( rootRoute, document.getElementById('App') );

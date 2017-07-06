@@ -8,8 +8,8 @@ export default {
         }
     },
 
-    setTabbarIndex( {setState}, data ) {
-        setState({ tabbarIndex:data })
+    setTabbarIndex( ctx, data ) {
+        ctx.setState({ tabbarIndex:data })
     },
 
 };
