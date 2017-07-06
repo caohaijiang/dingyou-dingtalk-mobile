@@ -16,13 +16,13 @@
     "dependencies": {
         "antd-mobile": "^1.0.5",
         "natty-storage": "^1.1.2",
-        "no-flux": "^0.2.7",
         "react": "^15.4.2",
         "react-dom": "^15.4.2",
-        "react-keeper": "^1.0.9",
-        "react-router": "^3.0.2",
+        "react-keeper": "^2.0.6",
+        "react-router": "^4.1.1",
         "svg-sprite-loader": "^0.3.0",
-        "unity-api": "^1.0.5"
+        "unity-api": "^2.0.1",
+	"refast": "^1.1.0"
     },
     "devDependencies": {
         "babel-plugin-import": "~1.0.1",
