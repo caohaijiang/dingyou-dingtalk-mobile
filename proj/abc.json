@@ -11,7 +11,7 @@
             "apis": "apis",
             "assets": "assets",
             "config": "config",
-            "image": "assets/image",
+            "image": "assets/img",
             "icon": "assets/icon",
             "components": "components",
             "dings": "dings",
