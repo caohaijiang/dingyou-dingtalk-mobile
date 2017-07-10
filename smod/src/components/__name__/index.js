@@ -1,1 +1,1 @@
-export { default } from './<%=Name %>';
+export { default } from './<%=Name %>Component';

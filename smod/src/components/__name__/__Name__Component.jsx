@@ -1,4 +1,4 @@
-require('./<%=Name%>.less');
+require('./<%=Name %>.less');
 import { Component } from 'refast';
 import logic from './Logic';
 
