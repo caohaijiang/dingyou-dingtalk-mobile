@@ -1,4 +1,4 @@
-require('./Page<%= Name %>.less');
+require('./Page<%=Name %>.less');
 import logic from './PageLogic';
 import { Component, LogicRender } from 'refast';  
 

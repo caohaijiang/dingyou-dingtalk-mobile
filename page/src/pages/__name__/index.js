@@ -1,1 +1,1 @@
-export { default } from './Page<%=name %>Router';
+export { default } from './Page<%=Name %>Router';

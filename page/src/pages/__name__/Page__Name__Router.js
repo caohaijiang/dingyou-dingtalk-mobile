@@ -1,5 +1,5 @@
 import { Route } from 'react-keeper'
-import Page from './Page<%=name %>';
+import Page from './Page<%=Name %>';
 
 export default {
     page: Page,
