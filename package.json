@@ -1,6 +1,6 @@
 {
   "name": "dingyou-dingtalk-mobile",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "This is a development template for dingtalk",
   "main": "page.js",
   "scripts": {
