@@ -1,1 +1,1 @@
-exports.answers = require('./smod').answers;
+exports.answers = require('./page').answers;
