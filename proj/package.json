@@ -15,17 +15,23 @@
     "license": "MIT",
     "dependencies": {
         "antd-mobile": "^1.0.5",
+        "natty-fetch": "^2.4.5",
         "natty-storage": "^1.1.2",
         "react": "^15.4.2",
         "react-dom": "^15.4.2",
         "react-keeper": "^2.0.6",
-        "react-router": "^4.1.1",
         "svg-sprite-loader": "^0.3.0",
         "unity-api": "^2.0.1",
 	    "refast": "^1.1.0"
     },
     "devDependencies": {
         "babel-plugin-import": "~1.0.1",
-        "babel-preset-stage-0": "^6.24.1"
+        "babel-preset-stage-0": "^6.24.1",
+        "nowa": "^1",
+        "nowa-build": "^1",
+        "nowa-server": "^1.17.0",
+        "postcss-cssnext": "^3.0.2",
+        "postcss-loader": "^2.0.6",
+        "postcss-pxtorem": "^3.3.1"
     }
 }
